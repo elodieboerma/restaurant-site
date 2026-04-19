@@ -1,1 +1,2 @@
 # restaurant-site
+This project demonstrates my new skills with webpack and more developed DOM manipulation skills. The whole site is dynamically generated with JavaScript, although styles are still in a separate CSS file.
