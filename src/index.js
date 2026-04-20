@@ -1,4 +1,5 @@
-import {loadHomepage} from "./home.js";
+import {loadHomePage} from "./home.js";
+import {loadMenuPage} from "./menu.js";
 import "./styles.css";
 
 loadHomepage();

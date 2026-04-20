@@ -1,6 +1,6 @@
 const contentDiv = document.getElementById("content");
 
-export function loadHomepage() {
+export function loadHomePage() {
     // review
     const review = document.createElement("div");
     const text = document.createElement("p");
