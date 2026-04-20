@@ -121,7 +121,7 @@ export function loadMenuPage() {
 
     mainDishes.append(entrees,main1,main2,main3,main4,main5,main6,main7);
 
-    
+
     // dessert
     const sweets = document.createElement("div");
     const desserts = document.createElement("h1");
@@ -161,4 +161,7 @@ export function loadMenuPage() {
     dessert4.append(sundae,sundaeText);
 
     sweets.append(desserts,dessert1,dessert2,dessert3,dessert4);
+
+
+    contentDiv.append(drinks,sideDishes,mainDishes,sweets);
 }

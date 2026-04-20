@@ -36,4 +36,7 @@ export function loadContactPage() {
     const waiterEmail = document.createElement("p");
     waiterEmail.textContent = "legitemail@literally.com";
     div3.append(waiter,waiterTitle,waiterNumber,waiterEmail);
+
+
+    contentDiv.append(title,div1,div2,div3);
 }

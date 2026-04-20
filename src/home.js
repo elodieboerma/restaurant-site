@@ -10,7 +10,6 @@ export function loadHomePage() {
     const person = document.createElement("h2");
     person.textContent = "Lucy";
     review.append(text,person);
-    contentDiv.appendChild(review);
 
     // hours
     const when = document.createElement("div");
@@ -31,7 +30,6 @@ export function loadHomePage() {
     const saturday = document.createElement("p");
     saturday.textContent = "Saturday: 9am - 7pm";
     when.append(hours,sunday,monday,tuesday,wednesday,thursday,friday,saturday);
-    contentDiv.appendChild(when);
 
     // location
     const place = document.createElement("div");
@@ -40,5 +38,7 @@ export function loadHomePage() {
     const address = document.createElement("p");
     address.textContent = "123 Cinnamon Ridge Dr, Homosassa FL";
     place.append(location,address);
-    contentDiv.appendChild(place);
+
+
+    contentDiv.append(review,when,place);
 }
