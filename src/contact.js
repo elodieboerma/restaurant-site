@@ -21,10 +21,12 @@ export function loadContactPage() {
     const managerTitle = document.createElement("p");
     managerTitle.textContent = "Manager";
     const managerNumber = document.createElement("p");
-    managerNumber.textContent = "555-555-5556. Don't you dare call me.";
+    managerNumber.textContent = "555-555-5556"
+    const doNot = document.createElement("p");
+    doNot.textContent = "Don't you dare call me.";
     const managerEmail = document.createElement("p");
     managerEmail.textContent = "reallyrealemail@real.com";
-    div2.append(manager,managerTitle,managerNumber,managerEmail);
+    div2.append(manager,managerTitle,managerNumber,doNot,managerEmail);
 
     const div3 = document.createElement("div");
     const waiter = document.createElement("h1");
