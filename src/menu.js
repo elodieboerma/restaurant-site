@@ -97,7 +97,7 @@ export function loadMenuPage() {
 
     const main5 = document.createElement("div");
     const spaetzli = document.createElement("h1");
-    spaetzli.textContent = "Spaetzli mit Saffransosse";
+    spaetzli.textContent = "Spaetzli Mit Saffransosse";
     const spaetzliText = document.createElement("p");
     spaetzliText.textContent = `House-made spaetzli pasta with saffron bechamel sauce. Served with tofu and 
     steamed broccoli for nutritional reasons. $10`;
@@ -105,7 +105,7 @@ export function loadMenuPage() {
 
     const main6 = document.createElement("div");
     const oven41 = document.createElement("h1");
-    oven41.textContent = "Oven Meal for One";
+    oven41.textContent = "Oven Meal For One";
     const oven41Text = document.createElement("p");
     oven41Text.textContent = `Two fajita tortillas with cheddar cheese baked in the oven to order. Served with 
     sour cream and mashed avocado. $4`;
