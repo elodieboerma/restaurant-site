@@ -1,7 +1,7 @@
 const contentDiv = document.getElementById("content");
 
 export function loadMenuPage() {
-    const menu = document.createElement("h1");
+    const menu = document.createElement("header");
     menu.textContent = "Menu";
 
     // drinks
