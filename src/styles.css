@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(213, 248, 245);
+}
+
 #content {
     width: 65vw;
     padding: 30px;
