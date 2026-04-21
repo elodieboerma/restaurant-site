@@ -1,6 +1,9 @@
 const contentDiv = document.getElementById("content");
 
 export function loadHomePage() {
+    const placeName = document.createElement("h1");
+    placeName.textContent = "Elodie's Eatery";
+
     // review
     const review = document.createElement("div");
     const text = document.createElement("p");
@@ -40,5 +43,5 @@ export function loadHomePage() {
     place.append(location,address);
 
 
-    contentDiv.append(review,when,place);
+    contentDiv.append(placeName,review,when,place);
 }
