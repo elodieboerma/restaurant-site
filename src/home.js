@@ -7,7 +7,7 @@ export function loadHomePage() {
 
     // review
     const review = document.createElement("div");
-    review.classList.add("block");
+    review.classList.add("item");
     const text = document.createElement("p");
     text.textContent = `Elodie's has the best pastries! The atmosphere and customer service make you feel like you 
                 are at her house, eating like a weirdo on a ballerina budget! This is exactly the kind of place 
@@ -18,7 +18,7 @@ export function loadHomePage() {
 
     // hours
     const when = document.createElement("div");
-    when.classList.add("block");
+    when.classList.add("item");
     const hours = document.createElement("h2");
     hours.textContent = "Hours";
     const sunday = document.createElement("p");
@@ -39,7 +39,7 @@ export function loadHomePage() {
 
     // location
     const place = document.createElement("div");
-    place.classList.add("block");
+    place.classList.add("item","end");
     const location = document.createElement("h2");
     location.textContent = "Location";
     const address = document.createElement("p");

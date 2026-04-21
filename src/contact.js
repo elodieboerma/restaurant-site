@@ -3,11 +3,10 @@ const contentDiv = document.getElementById("content");
 export function loadContactPage() {
     const title = document.createElement("h1");
     title.textContent = "Contact Us";
-    title.classList.add("title");
     title.classList.add("block");
 
     const div1 = document.createElement("div");
-    div1.classList.add("block");
+    div1.classList.add("item");
     const chef = document.createElement("h3");
     chef.textContent = "Elodie's Mom";
     const chefTitle = document.createElement("p");
@@ -19,7 +18,7 @@ export function loadContactPage() {
     div1.append(chef,chefTitle,chefNumber,chefEmail);
 
     const div2 = document.createElement("div");
-    div2.classList.add("block");
+    div2.classList.add("item");
     const manager = document.createElement("h3");
     manager.textContent = "Elodie";
     const managerTitle = document.createElement("p");
@@ -33,7 +32,7 @@ export function loadContactPage() {
     div2.append(manager,managerTitle,managerNumber,doNot,managerEmail);
 
     const div3 = document.createElement("div");
-    div3.classList.add("block");
+    div3.classList.add("item","end");
     const waiter = document.createElement("h3");
     waiter.textContent = "Lucy";
     const waiterTitle = document.createElement("p");
