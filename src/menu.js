@@ -18,7 +18,7 @@ export function loadMenuPage() {
     const theElodie = document.createElement("h1");
     theElodie.textContent = "The Elodie";
     const theElodieText = document.createElement("p");
-    theElodieText.textContent = `A concotion made with two pars Dove hot cocoa and one part french vanilla 
+    theElodieText.textContent = `A concotion made with two parts Dove hot cocoa and one part french vanilla 
     coffee granules for the perfect mix of chocolate and coffee. Available in Just A Little (8oz, $2) and I 
     Love Sugar (16oz, $4) sizes.`;
     drink2.append(theElodie,theElodieText);
