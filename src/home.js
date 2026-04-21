@@ -7,13 +7,13 @@ export function loadHomePage() {
     text.textContent = `Elodie's has the best pastries! The atmosphere and customer service make you feel like you 
                 are at her house, eating like a weirdo on a ballerina budget! This is exactly the kind of place 
                 that I like to return to again and again. Weemp womp weemp womp!`;
-    const person = document.createElement("h2");
+    const person = document.createElement("h3");
     person.textContent = "Lucy";
     review.append(text,person);
 
     // hours
     const when = document.createElement("div");
-    const hours = document.createElement("h1");
+    const hours = document.createElement("h2");
     hours.textContent = "Hours";
     const sunday = document.createElement("p");
     sunday.textContent = "Sunday: closed";
@@ -33,7 +33,7 @@ export function loadHomePage() {
 
     // location
     const place = document.createElement("div");
-    const location = document.createElement("h1");
+    const location = document.createElement("h2");
     location.textContent = "Location";
     const address = document.createElement("p");
     address.textContent = "123 Cinnamon Ridge Dr, Homosassa FL";

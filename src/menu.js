@@ -1,16 +1,16 @@
 const contentDiv = document.getElementById("content");
 
 export function loadMenuPage() {
-    const menu = document.createElement("header");
+    const menu = document.createElement("h1");
     menu.textContent = "Menu";
 
     // drinks
     const drinks = document.createElement("div");
-    const beverages = document.createElement("h1");
+    const beverages = document.createElement("h2");
     beverages.textContent = "Beverages";
 
     const drink1 = document.createElement("div");
-    const theLucy = document.createElement("h1");
+    const theLucy = document.createElement("h3");
     theLucy.textContent = "The Lucy";
     const theLucyText = document.createElement("p");
     theLucyText.textContent = `A cup of black tea with a splash of milk and a generous amount of brown sugar,
@@ -18,7 +18,7 @@ export function loadMenuPage() {
     drink1.append(theLucy,theLucyText);
 
     const drink2 = document.createElement("div");
-    const theElodie = document.createElement("h1");
+    const theElodie = document.createElement("h3");
     theElodie.textContent = "The Elodie";
     const theElodieText = document.createElement("p");
     theElodieText.textContent = `A concotion made with two parts Dove hot cocoa and one part french vanilla 
@@ -31,11 +31,11 @@ export function loadMenuPage() {
 
     // sides
     const sideDishes = document.createElement("div");
-    const sides = document.createElement("h1");
+    const sides = document.createElement("h2");
     sides.textContent = "Sides";
 
     const side1 = document.createElement("div");
-    const theLucySide = document.createElement("h1");
+    const theLucySide = document.createElement("h3");
     theLucySide.textContent = "The Lucy";
     const theLucySideText = document.createElement("p");
     theLucySideText.textContent = `One slice of whole wheat bread slathered with Bonne Maman raspberry 
@@ -43,7 +43,7 @@ export function loadMenuPage() {
     side1.append(theLucySide,theLucySideText);
 
     const side2 = document.createElement("div");
-    const theElodieSide = document.createElement("h1");
+    const theElodieSide = document.createElement("h3");
     theElodieSide.textContent = "The Elodie";
     const theElodieSideText = document.createElement("p");
     theElodieSideText.textContent = `Two pieces of weemp womp low-moisture mozzarella string cheese with a cup 
@@ -51,7 +51,7 @@ export function loadMenuPage() {
     side2.append(theElodieSide,theElodieSideText);
 
     const side3 = document.createElement("div");
-    const reibekuchen = document.createElement("h1");
+    const reibekuchen = document.createElement("h3");
     reibekuchen.textContent = "Reibekuchen";
     const reibekuchenText = document.createElement("p");
     reibekuchenText.textContent = `Three potato pancakes also known as Polish latkes. Served with sides of sour 
@@ -63,11 +63,11 @@ export function loadMenuPage() {
 
     // entrees
     const mainDishes = document.createElement("div");
-    const entrees = document.createElement("h1");
+    const entrees = document.createElement("h2");
     entrees.textContent = "Entrees";
 
     const main1 = document.createElement("div");
-    const theLucyMain = document.createElement("h1");
+    const theLucyMain = document.createElement("h3");
     theLucyMain.textContent = "The Lucy";
     const theLucyMainText = document.createElement("p");
     theLucySideText.textContent = `Banh Mi on whole wheat bread. Not-quite-julienned cucumber and carrots,
@@ -75,7 +75,7 @@ export function loadMenuPage() {
     main1.append(theLucyMain,theLucyMainText);
 
     const main2 = document.createElement("div");
-    const theElodieMain = document.createElement("h1");
+    const theElodieMain = document.createElement("h3");
     theElodieMain.textContent = "The Elodie";
     const theElodieMainText = document.createElement("p");
     theElodieSideText.textContent = `Whatever Elodie has been eating for lunch for the past thirty days. 
@@ -83,7 +83,7 @@ export function loadMenuPage() {
     main2.append(theElodieMain,theElodieMainText);
 
     const main3 = document.createElement("div");
-    const lCheese = document.createElement("h1");
+    const lCheese = document.createElement("h3");
     lCheese.textContent = "Mac And Cheese For Losers";
     const lCheeseText = document.createElement("p");
     lCheeseText.textContent = `A whole box of Goodles truffle mac and cheese served in an L-shaped dish because 
@@ -91,7 +91,7 @@ export function loadMenuPage() {
     main3.append(lCheese,lCheeseText);
 
     const main4 = document.createElement("div");
-    const comfort = document.createElement("h1");
+    const comfort = document.createElement("h3");
     comfort.textContent = "Comfort In A Bowl (And On A Plate)";
     const comfortText = document.createElement("p");
     comfortText.textContent = `A cup of tomato soup made by Elodie's mom. The comfort is extended with cheddar 
@@ -99,7 +99,7 @@ export function loadMenuPage() {
     main4.append(comfort,comfortText);
 
     const main5 = document.createElement("div");
-    const spaetzli = document.createElement("h1");
+    const spaetzli = document.createElement("h3");
     spaetzli.textContent = "Spaetzli Mit Saffransosse";
     const spaetzliText = document.createElement("p");
     spaetzliText.textContent = `House-made spaetzli pasta with saffron bechamel sauce. Served with tofu and 
@@ -107,7 +107,7 @@ export function loadMenuPage() {
     main5.append(spaetzli,spaetzliText);
 
     const main6 = document.createElement("div");
-    const oven41 = document.createElement("h1");
+    const oven41 = document.createElement("h3");
     oven41.textContent = "Oven Meal For One";
     const oven41Text = document.createElement("p");
     oven41Text.textContent = `Two fajita tortillas with cheddar cheese baked in the oven to order. Served with 
@@ -115,7 +115,7 @@ export function loadMenuPage() {
     main6.append(oven41,oven41Text);
 
     const main7 = document.createElement("div");
-    const fondue = document.createElement("h1");
+    const fondue = document.createElement("h3");
     fondue.textContent = "Ski Trip";
     const fondueText = document.createElement("p");
     fondueText.textContent = `Emmi cheese fondue with cubed white Italian bread. Served in a traditional fondue 
@@ -127,11 +127,11 @@ export function loadMenuPage() {
 
     // dessert
     const sweets = document.createElement("div");
-    const desserts = document.createElement("h1");
+    const desserts = document.createElement("h2");
     desserts.textContent = "Desserts";
 
     const dessert1 = document.createElement("div");
-    const pt2 = document.createElement("h1");
+    const pt2 = document.createElement("h3");
     pt2.textContent = "Ski Trip Part 2";
     const pt2Text = document.createElement("p");
     pt2Text.textContent = `Milka brand milk chocolate melted in a small chocolate fondue cup with a fondue fork. 
@@ -139,7 +139,7 @@ export function loadMenuPage() {
     dessert1.append(pt2,pt2Text);
 
     const dessert2 = document.createElement("div");
-    const streuselkuchen = document.createElement("h1");
+    const streuselkuchen = document.createElement("h3");
     streuselkuchen.textContent = "Streuselkuchen";
     const streuselkuchenText = document.createElement("p");
     streuselkuchenText.textContent = `Slice of dense German yeast crumb cake. Lightly sweet with notes of lemon 
@@ -147,7 +147,7 @@ export function loadMenuPage() {
     dessert2.append(streuselkuchen,streuselkuchenText);
 
     const dessert3 = document.createElement("div");
-    const spitzbuben = document.createElement("h1");
+    const spitzbuben = document.createElement("h3");
     spitzbuben.textContent = "Spitzbuben";
     const spitzbubenText = document.createElement("p");
     spitzbubenText.textContent = `Also known as Linzer cookies, these labor-intensive sandwich cookies are made 
@@ -156,7 +156,7 @@ export function loadMenuPage() {
     dessert3.append(spitzbuben,spitzbubenText);
 
     const dessert4 = document.createElement("div");
-    const sundae = document.createElement("h1");
+    const sundae = document.createElement("h3");
     sundae.textContent = "Strawberry Shortcake Sundae";
     const sundaeText = document.createElement("p");
     sundaeText.textContent = `Sugared strawberries, crushed vanilla wafers, and fresh whipped cream atop two 
