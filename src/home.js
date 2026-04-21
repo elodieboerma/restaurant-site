@@ -3,9 +3,11 @@ const contentDiv = document.getElementById("content");
 export function loadHomePage() {
     const placeName = document.createElement("h1");
     placeName.textContent = "Elodie's Eatery";
+    placeName.classList.add("block");
 
     // review
     const review = document.createElement("div");
+    review.classList.add("block");
     const text = document.createElement("p");
     text.textContent = `Elodie's has the best pastries! The atmosphere and customer service make you feel like you 
                 are at her house, eating like a weirdo on a ballerina budget! This is exactly the kind of place 
@@ -16,6 +18,7 @@ export function loadHomePage() {
 
     // hours
     const when = document.createElement("div");
+    when.classList.add("block");
     const hours = document.createElement("h2");
     hours.textContent = "Hours";
     const sunday = document.createElement("p");
@@ -36,6 +39,7 @@ export function loadHomePage() {
 
     // location
     const place = document.createElement("div");
+    place.classList.add("block");
     const location = document.createElement("h2");
     location.textContent = "Location";
     const address = document.createElement("p");
