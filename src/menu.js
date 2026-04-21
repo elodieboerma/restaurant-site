@@ -81,7 +81,7 @@ export function loadMenuPage() {
     const theLucyMain = document.createElement("h3");
     theLucyMain.textContent = "The Lucy";
     const theLucyMainText = document.createElement("p");
-    theLucySideText.textContent = `Banh Mi on whole wheat bread. Not-quite-julienned cucumber and carrots,
+    theLucyMainText.textContent = `Banh Mi on whole wheat bread. Not-quite-julienned cucumber and carrots,
     mayonnaise, and marinated tofu. Vegetables may or may not be pickled. $5`;
     main1.append(theLucyMain,theLucyMainText);
 
@@ -90,7 +90,7 @@ export function loadMenuPage() {
     const theElodieMain = document.createElement("h3");
     theElodieMain.textContent = "The Elodie";
     const theElodieMainText = document.createElement("p");
-    theElodieSideText.textContent = `Whatever Elodie has been eating for lunch for the past thirty days. 
+    theElodieMainText.textContent = `Whatever Elodie has been eating for lunch for the past thirty days. 
     Guaranteed to be the most delicious thing you've ever eaten. $10`;
     main2.append(theElodieMain,theElodieMainText);
 
