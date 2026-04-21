@@ -1,6 +1,9 @@
 const contentDiv = document.getElementById("content");
 
 export function loadMenuPage() {
+    const menu = document.createElement("h1");
+    menu.textContent = "Menu";
+
     // drinks
     const drinks = document.createElement("div");
     const beverages = document.createElement("h1");
@@ -163,5 +166,5 @@ export function loadMenuPage() {
     sweets.append(desserts,dessert1,dessert2,dessert3,dessert4);
 
 
-    contentDiv.append(drinks,sideDishes,mainDishes,sweets);
+    contentDiv.append(menu, drinks,sideDishes,mainDishes,sweets);
 }
