@@ -13,7 +13,7 @@ export function loadHomePage() {
                 are at her house, eating like a weirdo on a ballerina budget! This is exactly the kind of place 
                 that I like to return to again and again. Weemp womp weemp womp!`;
     const person = document.createElement("h3");
-    person.textContent = "Lucy";
+    person.textContent = "-Lucy";
     review.append(text,person);
 
     // hours
