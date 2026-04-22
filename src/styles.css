@@ -13,6 +13,13 @@ header {
     padding: 20px 0px;
     margin: 30px 0px;
     background-color: rgb(248, 212, 212);
+    border-top: 5px solid pink;
+    border-bottom: 5px solid pink;
+    box-shadow: 0 0px 0 30px rgb(213, 248, 245);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 button,
